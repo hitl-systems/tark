@@ -17,6 +17,8 @@ The weights are on Hugging Face: **https://huggingface.co/hitl-systems/tark**. T
 
 The file is self-contained: weights, tokenizer, value lexicon, and the confidence thresholds that decide whether a call should be acted on.
 
+Documentation: [docs/](docs/README.md) covers the interface, how every number below was produced, and the limitations in detail.
+
 ## What it is for
 
 Short, single-turn requests against a fixed set of typed tools: device actions, app intents, slot filling for a known set of intents. It is built for that and does it well. It is not a general function-calling model.
